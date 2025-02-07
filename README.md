@@ -91,6 +91,7 @@ __Note: These options should be set in the NetBox configuration file.__
 ### User key (Without Session)
 
 ![user-key.png](./assets/user-key.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkomissargithuba%2Fnetbox-secrets.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkomissargithuba%2Fnetbox-secrets?ref=badge_shield)
 
 ### User key (With Session)
 
@@ -140,3 +141,7 @@ python manage.py sqlsequencereset netbox_secrets
 Run the output of the previous command in the database.
 
 You can now remove `netbox-secretstore` from the application. You may have clean up your database of the old tables manually.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkomissargithuba%2Fnetbox-secrets.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkomissargithuba%2Fnetbox-secrets?ref=badge_large)
